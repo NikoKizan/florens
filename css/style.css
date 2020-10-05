@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  background-color: #fee5bc;
+  font-family: Roboto, serif;
+}
+
+.header-menu {
+  position: relative;
+  margin-top: 397px;
+  background: url(../img/main-img.jpg) center no-repeat;
+  background-size: contain;
+  text-align: center;
+}
+
+.header-menu__title {
+  margin: 0 0 202px 0;
+  font-size: 113px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #39271b;
+}
+
+.header-menu__title::before {
+  content: '';
+  display: block;
+  position: absolute;
+  
+
+}
+
+.header-menu__type-name {
+  margin: 0;
+  color: #6d6767;
+}
