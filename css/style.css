@@ -53,12 +53,13 @@ body {
 /* SECTION MENU */
 
 .menu {
-  margin: 0 50px 185px 50px;
+  margin: 0 25px 185px 25px;
+  display: flex;
 }
 
 .menu-florens__dishes-title {
-  text-align: center;
-  font-size: 22px;
+  margin-left: 80px;
+  font-size: 12px;
   font-weight: 300;
   font-style: italic;
   text-transform: uppercase;
@@ -70,11 +71,12 @@ body {
 
 .menu-florens__dishes-name {
   margin-bottom: 0;
+  font-size: 10px;
 }
 
 .menu-florens__dishes-description {
   margin: 0;
-  font-size: 12px;
+  font-size: 9px;
   font-weight: 300;
   font-style: italic;
 }
